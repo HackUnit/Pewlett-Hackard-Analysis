@@ -48,4 +48,4 @@ As was pointed out earlier, a staggering number of roles would need to be filled
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
-While the number of upcoming retirees is a large amount, this precludes a potential vaccuum of talent due to the respectively large number of employees who qualify for the mentorship program. This information can be garnered from the amount of employees who qualified for the mentorship program.
+While the number of upcoming retirees is a large amount, this precludes a potential vaccuum of talent due to the respectively large number of employees who qualify for the mentorship program. This information can be garnered from the query on the number of employees who qualified for the mentorship program and the previous query which breaks down the count per department and title.
