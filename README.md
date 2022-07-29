@@ -12,28 +12,28 @@ Furthermore, specific SQL functions such as COUNT, GROUP BY and ORDER BY were ut
 - A list of retiring employees was first created. This list was created with retiring age being determined by employees who were born between January 1, 1952 and December 31, 1955. This resulted in a massive list of 133,776 entries. The issue was that this list included duplicates due to employees being moved into different positions. Thus, the data was not unique and had to be tailored further.
 
 ![Retiring Employees](Data/retirement_titles.png)
-<sub>List of Retiring Employees</sub>
+</br><sub>List of Retiring Employees</sub>
 
 
 
 - The data was parsed to find only the current employees who were in the designated retirement age bracket with unique titles. This tailored out the duplicates that the previous list had. This amount totaled over 72,000+ employees.
 
 ![Retiring Employees Without Duplicates](Data/unique_titles.png)
-<sub>List of Retiring Employees Without Duplicates</sub>
+</br><sub>List of Retiring Employees Without Duplicates</sub>
 
 
 
 - The analysis conducted on the number of employees by title showed that the Senior Engineer position would be the one with the most retirees. This was in stark contrast to the two Manager positions that would be vacated by a retiree.
 
 ![Retiring Titles](Data/retiring_titles.png)
-<sub>Count of Upcoming Retirees by Title</sub>
+</br><sub>Count of Upcoming Retirees by Title</sub>
 
 
 
 - A final piece of the analysis established who would be eligible for a mentorship program. This analysis was tailored to have current employees who were born between January 1, 1965 and December 31, 1965.
 
 ![Mentorship Eligibility](Data/mentorship_eligibility.png)
-<sub>List of Employees Eligible for Mentorship Program</sub>
+</br><sub>List of Employees Eligible for Mentorship Program</sub>
 
 
 ## Summary:
