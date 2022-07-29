@@ -43,7 +43,7 @@ Furthermore, specific SQL functions such as COUNT, GROUP BY and ORDER BY were ut
 As was pointed out earlier, a staggering number of roles would need to be filled. To get a better idea of the amount a query was created to break down the count of roles that needed to be filled per title in each department.
 
 ![Roles to Fill](Data/roles_to_fill.png)
-<sub>List With Count of Roles to Fill by Department and Title</sub>
+</br><sub>List With Count of Roles to Fill by Department and Title</sub>
 
 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
