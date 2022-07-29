@@ -64,3 +64,34 @@ WHERE (de.to_date = '9999-01-01') AND (em.birth_date BETWEEN '1965-01-01' AND '1
 ORDER BY em.emp_no;
 
 SELECT * FROM mentorship_eligibility;
+
+
+-- Creating table to query Summary questions in Deliverable 3
+
+SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
+		rt.first_name,
+		rt.last_name,
+		rt.title,
+		rt.to_date,
+		de.dept_no,
+		dep.dept_name
+		
+INTO unique_titles_dept
+FROM retirement_titles as rt	
+INNER JOIN dept_emp as de
+ON (rt.emp_no = de.emp_no)
+INNER JOIN departments as dep 
+ON (dep.dept_no = de.dept_no)
+WHERE rt.to_date = '9999-01-01'
+ORDER BY rt.emp_no, rt.to_date DESC;
+
+
+-- How many roles to fill by title
+SELECT utd.dept_name, utd.title, COUNT(utd.title) 
+INTO roles_to_fill
+FROM (SELECT title, dept_name from unique_titles_dept) as utd
+GROUP BY utd.title, utd.dept_name
+ORDER BY utd.dept_name DESC;
+
+SELECT * FROM roles_to_fill;
+
